@@ -1,0 +1,28 @@
+I:
+array of either integers of strings, or a combination
+a number, numbers, string, or strings
+
+P:
+make function with the args([], val1, val2, val3, val4) //DONE
+set array arg into local array //DONE
+make a for loop that sets every index of the array to a value?
+set the arg values to local variables	//DONE																					
+make a loop to loop through all the array values and set conditionals to see if an array index matches the args
+	if index 0 === val1 || val2 || val3 || val4 remove that index value
+	else if index 0 != val1 || val2 || val3 || val4  then ignore {}	
+return the array																																																																		
+
+
+O:
+array with desired elements removed
+
+
+-------------------
+rules:
+it can remove a single value
+can remove multiple values
+ignores values not in array
+can remove all values from an array
+can remove index string values
+only removes values of the same type (no "1" strings, only actual numbers)
+

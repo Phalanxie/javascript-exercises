@@ -1,4 +1,13 @@
-function sumAll(val1, val2)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function sumAll(val1, val2)
     {
         let fNewVal1 = val1;
         let fNewVal2 = val2;
@@ -30,6 +39,7 @@ function sumAll(val1, val2)
                 {
                   total[i] = i;
                 }
+                console.log(total);
 
             for(let i = val2; i < total.length; i++)
                 {
@@ -52,5 +62,6 @@ function sumAll(val1, val2)
         }
 
     }
-
-module.exports = sumAll
+</script>
+</body>
+</html>

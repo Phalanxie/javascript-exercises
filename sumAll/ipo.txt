@@ -1,0 +1,25 @@
+I:
+two ints
+
+P:
+make func to take two ints
+make if loop to cancel code if any number is negative or a non-int
+if val1 > val2 newVal1 = val2, newVal2 = val1
+make a loop that makes all terms including the bounds into indexes in an array
+//make a for loop that adds every term between the small and large number
+add all indexes of the array
+
+
+
+O:
+the sum of every number between(and including) them
+
+rules:
+
+
+  sums numbers within the range
+  works with large numbers
+  works with larger number first
+  returns ERROR with negative numbers
+  returns ERROR with non-number parameters
+  returns ERROR with non-number parameters
